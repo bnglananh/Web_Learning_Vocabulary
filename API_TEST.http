@@ -1,0 +1,109 @@
+### Test Vocabularies API
+
+### Get all vocabularies
+GET http://localhost:5000/api/vocabularies
+
+### Get vocabulary by ID
+GET http://localhost:5000/api/vocabularies/1
+
+### Add new vocabulary
+POST http://localhost:5000/api/vocabularies
+Content-Type: application/json
+
+{
+  "englishWord": "Ambitious",
+  "pronunciation": "/æmˈbɪʃəs/",
+  "vietnameseMeaning": "Tham vọng, có tham vọng",
+  "example": "He has ambitious plans for the future.",
+  "exampleVietnamese": "Anh ấy có những kế hoạch tham vọng cho tương lai.",
+  "category": "daily",
+  "difficulty": "medium"
+}
+
+### Update vocabulary
+PUT http://localhost:5000/api/vocabularies/1
+Content-Type: application/json
+
+{
+  "englishWord": "Reliable",
+  "pronunciation": "/rɪˈlaɪəbl/",
+  "vietnameseMeaning": "Đáng tin cậy, tin tưởng được",
+  "example": "He is a reliable person.",
+  "exampleVietnamese": "Anh ấy là một người đáng tin cậy.",
+  "category": "business",
+  "difficulty": "medium"
+}
+
+### Delete vocabulary
+DELETE http://localhost:5000/api/vocabularies/1
+
+### Get vocabularies by category
+GET http://localhost:5000/api/vocabularies/category/business
+
+---
+
+### Test Quiz API
+
+### Generate quiz questions
+POST http://localhost:5000/api/quiz/generate
+
+### Generate quiz by category
+POST http://localhost:5000/api/quiz/generate?category=business
+
+### Submit quiz answer
+POST http://localhost:5000/api/quiz/submit
+Content-Type: application/json
+
+{
+  "questionId": 1,
+  "answer": "Đáng tin cậy"
+}
+
+---
+
+### Test Passage Exercise API
+
+### Get all exercises
+GET http://localhost:5000/api/passageexercises
+
+### Get exercise by ID
+GET http://localhost:5000/api/passageexercises/1
+
+### Create new exercise
+POST http://localhost:5000/api/passageexercises
+Content-Type: application/json
+
+{
+  "title": "Business Communication",
+  "originalPassage": "In modern business, reliable communication is essential. We must persevere through challenges.",
+  "passageWithBlanks": "In modern business, _____ communication is essential. We must _____ through challenges.",
+  "blankWords": [
+    {
+      "englishWord": "reliable",
+      "vietnameseMeaning": "đáng tin cậy",
+      "position": 1
+    },
+    {
+      "englishWord": "persevere",
+      "vietnameseMeaning": "kiên trì",
+      "position": 2
+    }
+  ],
+  "difficulty": "medium",
+  "category": "business"
+}
+
+### Submit passage exercise answers
+POST http://localhost:5000/api/passageexercises/1/submit
+Content-Type: application/json
+
+[
+  {
+    "blankId": 1,
+    "userAnswer": "reliable"
+  },
+  {
+    "blankId": 2,
+    "userAnswer": "persevere"
+  }
+]

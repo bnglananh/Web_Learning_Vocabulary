@@ -1,0 +1,299 @@
+[
+  {
+    "Id": 3,
+    "EnglishWord": "Innovative",
+    "VietnameseMeaning": "S\u00E1ng t\u1EA1o, t\u00E2n ti\u1EBFn",
+    "Example": "The company has an innovative approach.",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "0001-01-01T00:00:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": 4,
+    "EnglishWord": "consider",
+    "VietnameseMeaning": "xem x\u00E9t, c\u00E2n nh\u1EAFc",
+    "Example": "Please consider my proposal!",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-06-27T23:58:28.58178+07:00",
+    "UpdatedAt": "2026-06-27T23:58:28.5818351+07:00"
+  },
+  {
+    "Id": 5,
+    "EnglishWord": "strategy",
+    "VietnameseMeaning": "chi\u1EBFn l\u01B0\u1EE3c",
+    "Example": "They are changing their marketing strategy",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-06-28T18:24:27.4332941+07:00",
+    "UpdatedAt": "2026-06-28T18:24:27.4332968+07:00"
+  },
+  {
+    "Id": 6,
+    "EnglishWord": "evaluation",
+    "VietnameseMeaning": "S\u1EF1 \u0111\u00E1nh gi\u00E1",
+    "Example": "We need an honest evaluation.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-06-28T18:34:47.2661906+07:00",
+    "UpdatedAt": "2026-06-28T18:34:47.2661924+07:00"
+  },
+  {
+    "Id": 7,
+    "EnglishWord": "distribute",
+    "VietnameseMeaning": "ph\u00E2n ph\u1ED1i, ph\u00E2n ph\u00E1t",
+    "Example": "They distribute food to the poor. ",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-06-28T22:36:41.846963+07:00",
+    "UpdatedAt": "2026-06-28T22:36:41.8469681+07:00"
+  },
+  {
+    "Id": 8,
+    "EnglishWord": "identify",
+    "VietnameseMeaning": "nh\u1EADn ra ",
+    "Example": "We need to identify the problem.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-06-28T22:42:10.3458748+07:00",
+    "UpdatedAt": "2026-06-28T22:42:10.345877+07:00"
+  },
+  {
+    "Id": 9,
+    "EnglishWord": "expertise",
+    "VietnameseMeaning": "chuy\u00EAn m\u00F4n",
+    "Example": "She has expertise in marketing",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-06-30T00:55:36.48171+07:00",
+    "UpdatedAt": "2026-06-30T00:55:36.4818118+07:00"
+  },
+  {
+    "Id": 10,
+    "EnglishWord": "abide by",
+    "VietnameseMeaning": "tu\u00E2n th\u1EE7, ch\u1EA5p h\u00E0nh",
+    "Example": "All employees must abide by the company\u2019s safety regulations.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-07T22:41:20.301319+07:00",
+    "UpdatedAt": "2026-07-07T22:41:20.3013946+07:00"
+  },
+  {
+    "Id": 11,
+    "EnglishWord": "benefit from",
+    "VietnameseMeaning": "h\u01B0\u1EDFng l\u1EE3i t\u1EEB",
+    "Example": "New employees will benefit from the company\u0027s training program.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-08T16:22:03.4003982+07:00",
+    "UpdatedAt": "2026-07-08T16:22:03.4005157+07:00"
+  },
+  {
+    "Id": 12,
+    "EnglishWord": "consent to",
+    "VietnameseMeaning": "\u0111\u1ED3ng \u00FD, ch\u1EA5p thu\u1EADn",
+    "Example": "She consented to the surgery. ",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-08T22:08:26.9087533+07:00",
+    "UpdatedAt": "2026-07-08T22:08:26.9088428+07:00"
+  },
+  {
+    "Id": 13,
+    "EnglishWord": "deal with",
+    "VietnameseMeaning": "\u0111\u1ED1i ph\u00F3 v\u1EDBi ",
+    "Example": "She deals with customer complaints.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-08T22:14:59.4475002+07:00",
+    "UpdatedAt": "2026-07-08T22:14:59.4475025+07:00"
+  },
+  {
+    "Id": 14,
+    "EnglishWord": "dissent from",
+    "VietnameseMeaning": "b\u1EA5t \u0111\u1ED3ng quan \u0111i\u1EC3m, kh\u00F4ng \u0111\u1ED3ng \u00FD",
+    "Example": "I dissent from the new company policy. ",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-08T22:29:48.6997288+07:00",
+    "UpdatedAt": "2026-07-08T22:29:48.6997306+07:00"
+  },
+  {
+    "Id": 15,
+    "EnglishWord": "account for",
+    "VietnameseMeaning": "gi\u1EA3i th\u00EDch l\u00FD do cho vi\u1EC7c g\u00EC \u0111\u00F3",
+    "Example": "The bad weather accounts for the delay.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-08T22:36:55.3349189+07:00",
+    "UpdatedAt": "2026-07-08T22:36:55.3349211+07:00"
+  },
+  {
+    "Id": 16,
+    "EnglishWord": "compete with",
+    "VietnameseMeaning": "c\u1EA1nh tranh, tranh \u0111ua",
+    "Example": "Apple competes with Samsung in the phone market.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-08T22:40:26.806169+07:00",
+    "UpdatedAt": "2026-07-08T22:40:26.8061714+07:00"
+  },
+  {
+    "Id": 17,
+    "EnglishWord": "insist on ",
+    "VietnameseMeaning": "kh\u0103ng kh\u0103ng, c\u1ED1 n\u00E0i n\u1EC9",
+    "Example": "My friend insisted on paying for dinner. ",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-09T09:06:25.449884+07:00",
+    "UpdatedAt": "2026-07-09T09:06:25.4499554+07:00"
+  },
+  {
+    "Id": 18,
+    "EnglishWord": "look into",
+    "VietnameseMeaning": "nh\u00ECn \u0111\u1EC3 xem x\u00E9t, \u0111i\u1EC1u tra",
+    "Example": "We are looking into the cause of the error.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-09T09:10:30.2139619+07:00",
+    "UpdatedAt": "2026-07-09T09:10:30.2139714+07:00"
+  },
+  {
+    "Id": 19,
+    "EnglishWord": "proceed with",
+    "VietnameseMeaning": "ti\u1EBFp t\u1EE5c ti\u1EBFn h\u00E0nh",
+    "Example": "Let\u0027s proceed with the meeting.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-09T10:32:40.4351866+07:00",
+    "UpdatedAt": "2026-07-09T10:32:40.4351957+07:00"
+  },
+  {
+    "Id": 20,
+    "EnglishWord": "refer to",
+    "VietnameseMeaning": "xem qua, tham kh\u1EA3o",
+    "Example": "Please refer to the handbook. ",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-09T11:12:53.9561914+07:00",
+    "UpdatedAt": "2026-07-09T11:12:53.9562015+07:00"
+  },
+  {
+    "Id": 21,
+    "EnglishWord": "subscribe to ",
+    "VietnameseMeaning": "\u1EE7ng h\u1ED9, \u0111\u1ED3ng t\u00ECnh",
+    "Example": "I don\u0027t subscribe to that theory. ",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-09T11:18:58.5881545+07:00",
+    "UpdatedAt": "2026-07-09T11:18:58.5881572+07:00"
+  },
+  {
+    "Id": 22,
+    "EnglishWord": "sympathize with",
+    "VietnameseMeaning": "c\u1EA3m th\u00F4ng v\u1EDBi",
+    "Example": "We sympathize with the victims.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-09T11:40:02.248595+07:00",
+    "UpdatedAt": "2026-07-09T11:40:02.2485967+07:00"
+  },
+  {
+    "Id": 23,
+    "EnglishWord": "interfere with",
+    "VietnameseMeaning": "can thi\u1EC7p v\u00E0o",
+    "Example": "Please don\u0027t interfere with my work. ",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-09T13:13:45.903182+07:00",
+    "UpdatedAt": "2026-07-09T13:13:45.9032451+07:00"
+  },
+  {
+    "Id": 24,
+    "EnglishWord": "refrain from",
+    "VietnameseMeaning": "ki\u1EC1m l\u1EA1i, n\u00E9n l\u1EA1i",
+    "Example": "I refrained from eating chocolate.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-09T13:34:05.0153712+07:00",
+    "UpdatedAt": "2026-07-09T13:34:05.0153733+07:00"
+  },
+  {
+    "Id": 25,
+    "EnglishWord": "comply with",
+    "VietnameseMeaning": "ch\u1EA5p h\u00E0nh, tu\u00E2n theo",
+    "Example": "All staff must comply with safety rules. ",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-09T13:35:06.15372+07:00",
+    "UpdatedAt": "2026-07-09T13:35:06.1537219+07:00"
+  },
+  {
+    "Id": 26,
+    "EnglishWord": "amusing",
+    "VietnameseMeaning": "g\u00E2y c\u01B0\u1EDDi",
+    "Example": "I found the book very amusing.",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "2026-07-09T13:38:54.1053803+07:00",
+    "UpdatedAt": "2026-07-09T13:38:54.1053824+07:00"
+  },
+  {
+    "Id": 27,
+    "EnglishWord": "confusing",
+    "VietnameseMeaning": "g\u00E2y b\u1ED1i r\u1ED1i",
+    "Example": "The rules of the game are confusing. ",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "2026-07-09T13:39:53.2272352+07:00",
+    "UpdatedAt": "2026-07-09T13:39:53.227237+07:00"
+  },
+  {
+    "Id": 28,
+    "EnglishWord": "depressing ",
+    "VietnameseMeaning": "g\u00E2y phi\u1EC1n mu\u1ED9n, g\u00E2y ch\u00E1n n\u1EA3n",
+    "Example": "The news today is depressing.",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "2026-07-09T13:44:01.077988+07:00",
+    "UpdatedAt": "2026-07-09T13:44:01.0779898+07:00"
+  },
+  {
+    "Id": 29,
+    "EnglishWord": "embarrassing",
+    "VietnameseMeaning": "g\u00E2y x\u1EA5u h\u1ED5",
+    "Example": "It was an embarrassing moment. ",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "2026-07-09T13:48:13.6257224+07:00",
+    "UpdatedAt": "2026-07-09T13:48:13.6257243+07:00"
+  },
+  {
+    "Id": 30,
+    "EnglishWord": "exhausting",
+    "VietnameseMeaning": "g\u00E2y m\u1EC7t m\u1ECFi, ki\u1EC7t s\u1EE9c",
+    "Example": "I had an exhausting day at work. ",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "2026-07-09T13:50:00.9682157+07:00",
+    "UpdatedAt": "2026-07-09T13:50:00.968218+07:00"
+  },
+  {
+    "Id": 31,
+    "EnglishWord": "fascinating",
+    "VietnameseMeaning": "thu h\u00FAt, h\u1EA5p d\u1EABn",
+    "Example": "I am reading a fascinating book.",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "2026-07-09T13:51:53.5891139+07:00",
+    "UpdatedAt": "2026-07-09T13:51:53.589116+07:00"
+  },
+  {
+    "Id": 32,
+    "EnglishWord": "frightening",
+    "VietnameseMeaning": "g\u00E2y s\u1EE3 h\u00E3i, khi\u1EBFp s\u1EE3",
+    "Example": "The car crash was frightening. ",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "2026-07-09T13:54:56.7069866+07:00",
+    "UpdatedAt": "2026-07-09T13:54:56.7069887+07:00"
+  },
+  {
+    "Id": 33,
+    "EnglishWord": "shocking",
+    "VietnameseMeaning": "g\u00E2y ph\u1EABn n\u1ED9, g\u00E2y s\u1EEDng s\u1ED1t",
+    "Example": "It was a shocking accident. ",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "2026-07-09T14:02:07.3427097+07:00",
+    "UpdatedAt": "2026-07-09T14:02:07.3427116+07:00"
+  },
+  {
+    "Id": 34,
+    "EnglishWord": "Have been aranged in case",
+    "VietnameseMeaning": "\u0111\u01B0\u1EE3c s\u1EAFp x\u1EBFp v\u00E0o 1 c\u00E1i h\u1ED9p",
+    "Example": "The tools have been arranged in a case.",
+    "WordType": "Kh\u00E1c",
+    "CreatedAt": "2026-07-09T14:11:06.7878987+07:00",
+    "UpdatedAt": "2026-07-09T14:11:06.7879014+07:00"
+  },
+  {
+    "Id": 35,
+    "EnglishWord": "postpone",
+    "VietnameseMeaning": "tr\u00EC ho\u00E3n, ho\u00E3n l\u1EA1i",
+    "Example": "The manager decided to postpone the meeting.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-09T14:30:55.1984703+07:00",
+    "UpdatedAt": "2026-07-09T14:30:55.198473+07:00"
+  }
+]

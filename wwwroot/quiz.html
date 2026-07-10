@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Trắc Nghiệm Từ Vựng - Học Tiếng Anh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=2">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>📚 Học Từ Vựng</h1>
+                    <span class="tagline">Nâng Cao Kỹ Năng Tiếng Anh</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Trang Chủ</a>
+                    <a href="vocabulary.html" class="nav-link">Từ Vựng</a>
+                    <a href="quiz.html" class="nav-link active">Trắc Nghiệm</a>
+                    <a href="passage.html" class="nav-link">Điền Chỗ Trống</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Quiz Selection -->
+            <section class="quiz-selection" id="quizSelection">
+                <h2>Bắt Đầu Trắc Nghiệm</h2>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <button class="btn btn-primary" onclick="startQuiz()" style="font-size: 1.2rem; padding: 1rem 2.5rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                        <span style="font-size: 1.5rem;">🎯</span> Bắt Đầu Ngay
+                    </button>
+                </div>
+            </section>
+
+            <!-- Quiz Container -->
+            <section class="quiz-container" id="quizContainer" style="display: none;">
+                <!-- Progress Bar -->
+                <div class="quiz-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="progress-text">
+                        <span id="currentQuestion">1</span> / <span id="totalQuestions">10</span>
+                    </div>
+                </div>
+
+                <!-- Question -->
+                <div class="question-card">
+                    <div class="question-type" id="questionType"></div>
+                    <h3 id="questionText" class="question-text"></h3>
+                </div>
+
+                <!-- Options -->
+                <div class="options-container" id="optionsContainer"></div>
+
+                <!-- Navigation -->
+                <div class="quiz-navigation">
+                    <button class="btn btn-secondary" id="prevBtn" onclick="previousQuestion()">← Câu Trước</button>
+                    <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">Câu Tiếp →</button>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="quiz-submit" style="text-align: center; margin-top: 2rem;">
+                    <button class="btn btn-primary" id="submitBtn" onclick="submitQuiz()">Nộp Bài</button>
+                </div>
+            </section>
+
+            <!-- Quiz Results -->
+            <section class="quiz-results" id="quizResults" style="display: none;">
+                <h2>Kết Quả Trắc Nghiệm</h2>
+                <div class="result-card">
+                    <div class="score-circle">
+                        <div class="score-value" id="scoreValue">0%</div>
+                        <div class="score-label">Điểm Số</div>
+                    </div>
+                    <div class="result-details">
+                        <p><strong>Câu Đúng:</strong> <span id="correctCount">0</span>/<span id="totalCount">0</span></p>
+                        <p><strong>Tỷ Lệ Thành Công:</strong> <span id="successRate">0%</span></p>
+                        <p><strong>Thời Gian:</strong> <span id="timeSpent">0</span> phút</p>
+                    </div>
+                </div>
+
+                <!-- Detailed Results -->
+                <div class="detailed-results" id="detailedResults"></div>
+
+                <!-- Actions -->
+                <div class="result-actions">
+                    <button class="btn btn-primary" onclick="retakeQuiz()">Làm Lại</button>
+                    <button class="btn btn-secondary" onclick="window.location.href='index.html'">Về Trang Chủ</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Học Từ Vựng. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

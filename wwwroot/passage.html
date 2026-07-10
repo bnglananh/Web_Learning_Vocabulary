@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Điền Chỗ Trống - Học Tiếng Anh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=4">
+    <link rel="stylesheet" href="passage.css?v=4">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>📚 Học Từ Vựng</h1>
+                    <span class="tagline">Nâng Cao Kỹ Năng Tiếng Anh</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Trang Chủ</a>
+                    <a href="vocabulary.html" class="nav-link">Từ Vựng</a>
+                    <a href="quiz.html" class="nav-link">Trắc Nghiệm</a>
+                    <a href="passage.html" class="nav-link active">Điền Chỗ Trống</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Exercise Selection -->
+            <section class="exercise-selection" id="exerciseSelection">
+                <div class="section-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                    <h2>Chọn Bài Tập Điền Chỗ Trống</h2>
+                    <button class="btn btn-primary" onclick="generateNewExercise()">✨ Tạo Bài Tập Mới (AI)</button>
+                </div>
+                <div class="exercises-grid" id="exercisesGrid"></div>
+            </section>
+
+            <!-- Passage Exercise -->
+            <section class="passage-exercise" id="passageExercise" style="display: none;">
+                <div class="exercise-header">
+                    <h2 id="exerciseTitle"></h2>
+                </div>
+
+                <!-- Instructions -->
+                <div class="instructions">
+                    <p>📖 Đọc đoạn văn dưới đây và điền các từ phù hợp vào chỗ trống</p>
+                </div>
+
+                <!-- Passage with Blanks -->
+                <div class="passage-container">
+                    <div class="passage-text" id="passageText"></div>
+                </div>
+
+                <!-- Word Bank -->
+                <div class="word-bank-section" id="wordBankSection" style="display: none;">
+                    <h3>Các từ để điền:</h3>
+                    <div class="word-bank" id="wordBank"></div>
+                </div>
+
+
+                <!-- Navigation -->
+                <div class="passage-navigation">
+                    <button class="btn btn-secondary" onclick="backToExercises()">← Quay Lại</button>
+                    <button class="btn btn-primary" onclick="submitPassage()">Nộp Bài</button>
+                </div>
+            </section>
+
+            <!-- Passage Results -->
+            <section class="passage-results" id="passageResults" style="display: none;">
+                <h2>Kết Quả Bài Tập</h2>
+
+                <div class="result-summary">
+                    <div class="score-badge">
+                        <div class="score-value" id="passageScore">0</div>
+                        <div class="score-max">/ <span id="passageMax">0</span></div>
+                    </div>
+                    <div class="summary-text">
+                        <p><strong>Kết Quả:</strong> <span id="resultMessage"></span></p>
+                        <p><strong>Mức Độ:</strong> <span id="resultLevel"></span></p>
+                    </div>
+                </div>
+
+                <!-- Detailed Answers -->
+                <div class="answers-review" id="answersReview"></div>
+
+                <!-- Navigation -->
+                <div class="result-navigation">
+                    <button class="btn btn-primary" onclick="retakePassage()">Làm Lại</button>
+                    <button class="btn btn-secondary" onclick="backToExercises()">Bài Tập Khác</button>
+                    <button class="btn btn-secondary" onclick="window.location.href='index.html'">Về Trang Chủ</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Học Từ Vựng. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script src="passage.js?v=5"></script>
+</body>
+</html>

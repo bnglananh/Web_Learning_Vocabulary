@@ -1,0 +1,6 @@
+@Web_Learning_Vocabulary_HostAddress = http://localhost:5138
+
+GET {{Web_Learning_Vocabulary_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

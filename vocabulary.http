@@ -1,0 +1,33 @@
+### Generate vocabulary learning materials
+POST https://localhost:7000/api/vocabulary/generate
+Content-Type: application/json
+
+{
+  "vocabularyList": [
+    {
+      "word": "resilient",
+      "definition": "able to recover quickly from difficulties",
+      "wordType": "adjective"
+    },
+    {
+      "word": "persistence",
+      "definition": "firm or obstinate continuance in a course of action",
+      "wordType": "noun"
+    },
+    {
+      "word": "overcome",
+      "definition": "to successfully deal with or gain control of something difficult",
+      "wordType": "verb"
+    },
+    {
+      "word": "adversity",
+      "definition": "difficult or unfortunate situations",
+      "wordType": "noun"
+    },
+    {
+      "word": "flourish",
+      "definition": "to grow or develop in a healthy and vigorous way",
+      "wordType": "verb"
+    }
+  ]
+}
