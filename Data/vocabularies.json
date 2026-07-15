@@ -295,5 +295,239 @@
     "WordType": "\u0110\u1ED9ng t\u1EEB",
     "CreatedAt": "2026-07-09T14:30:55.1984703+07:00",
     "UpdatedAt": "2026-07-09T14:30:55.198473+07:00"
+  },
+  {
+    "Id": 36,
+    "EnglishWord": "occupation",
+    "VietnameseMeaning": "ngh\u1EC1 nghi\u1EC7p",
+    "Example": "Please state your name, age, and occupation on the form. ",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-12T16:57:04.5540047+07:00",
+    "UpdatedAt": "2026-07-12T16:57:04.5542016+07:00"
+  },
+  {
+    "Id": 37,
+    "EnglishWord": "expert",
+    "VietnameseMeaning": "chuy\u00EAn gia",
+    "Example": "She is a financial expert.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-12T17:01:09.7479511+07:00",
+    "UpdatedAt": "2026-07-12T17:01:09.7479533+07:00"
+  },
+  {
+    "Id": 38,
+    "EnglishWord": "safety procedures",
+    "VietnameseMeaning": "quy tr\u00ECnh an to\u00E0n",
+    "Example": "All workers must follow strict safety procedures in the factory. ",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-12T17:03:51.0545485+07:00",
+    "UpdatedAt": "2026-07-12T17:03:51.0545513+07:00"
+  },
+  {
+    "Id": 39,
+    "EnglishWord": "avoid",
+    "VietnameseMeaning": "tr\u00E1nh",
+    "Example": "You should avoid walking under the rain. ",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-12T17:09:14.1902415+07:00",
+    "UpdatedAt": "2026-07-12T17:09:14.1902435+07:00"
+  },
+  {
+    "Id": 40,
+    "EnglishWord": "safety inspector",
+    "VietnameseMeaning": "thanh tra an to\u00E0n",
+    "Example": "The safety inspector ordered the workers to halt construction because the scaffolding was unstable.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-12T18:07:42.3930143+07:00",
+    "UpdatedAt": "2026-07-12T18:07:42.3930177+07:00"
+  },
+  {
+    "Id": 41,
+    "EnglishWord": "assign",
+    "VietnameseMeaning": "ph\u00E2n c\u00F4ng, ch\u1EC9 \u0111\u1ECBnh",
+    "Example": "The manager assigned Tam to lead the new project.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-12T19:46:08.4621216+07:00",
+    "UpdatedAt": "2026-07-12T19:46:08.4622139+07:00"
+  },
+  {
+    "Id": 42,
+    "EnglishWord": "compensation",
+    "VietnameseMeaning": "s\u1EF1 b\u1ED3i th\u01B0\u1EDDng, s\u1EF1 \u0111\u1EC1n b\u00F9",
+    "Example": "The company paid compensation to the workers injured in the accident.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-12T19:57:36.1950849+07:00",
+    "UpdatedAt": "2026-07-12T19:57:36.195087+07:00"
+  },
+  {
+    "Id": 43,
+    "EnglishWord": "function",
+    "VietnameseMeaning": "ch\u1EE9c n\u0103ng, ho\u1EA1t \u0111\u1ED9ng",
+    "Example": "The function of the heart is to pump blood. ",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-12T21:51:04.548885+07:00",
+    "UpdatedAt": "2026-07-12T21:51:04.5488896+07:00"
+  },
+  {
+    "Id": 44,
+    "EnglishWord": "anticipate",
+    "VietnameseMeaning": "d\u1EF1 \u0111o\u00E1n, d\u1EF1 t\u00EDnh",
+    "Example": "The vendor anticipates a high demand for coats this winter. ",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-13T10:55:40.5156883+07:00",
+    "UpdatedAt": "2026-07-13T10:55:40.5157807+07:00"
+  },
+  {
+    "Id": 45,
+    "EnglishWord": "repetitive",
+    "VietnameseMeaning": "l\u1EB7p l\u1EA1i",
+    "Example": "He does repetitive tasks at work.",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "2026-07-15T00:25:52.9756471+07:00",
+    "UpdatedAt": "2026-07-15T00:25:52.9758461+07:00"
+  },
+  {
+    "Id": 46,
+    "EnglishWord": "modification",
+    "VietnameseMeaning": "s\u1EF1 s\u1EEDa \u0111\u1ED5i, s\u1EF1 b\u1ED5 sung",
+    "Example": "We made a small modification to the plan.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-15T00:27:00.2185088+07:00",
+    "UpdatedAt": "2026-07-15T00:27:00.2185113+07:00"
+  },
+  {
+    "Id": 47,
+    "EnglishWord": "entitle",
+    "VietnameseMeaning": "cho quy\u1EC1n l\u00E0m g\u00EC",
+    "Example": "Everyone is entitled to help.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-15T00:30:17.4797307+07:00",
+    "UpdatedAt": "2026-07-15T00:30:17.4797329+07:00"
+  },
+  {
+    "Id": 48,
+    "EnglishWord": "complimentary",
+    "VietnameseMeaning": "t\u1EB7ng, mi\u1EC5n ph\u00ED",
+    "Example": "The hotel offers complimentary breakfast.",
+    "WordType": "T\u00EDnh t\u1EEB",
+    "CreatedAt": "2026-07-15T00:38:09.9137829+07:00",
+    "UpdatedAt": "2026-07-15T00:38:09.9137853+07:00"
+  },
+  {
+    "Id": 49,
+    "EnglishWord": "decline",
+    "VietnameseMeaning": "gi\u1EA3m, t\u1EEB ch\u1ED1i",
+    "Example": "She declined the job offer.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-15T00:42:41.963687+07:00",
+    "UpdatedAt": "2026-07-15T00:42:41.9636892+07:00"
+  },
+  {
+    "Id": 50,
+    "EnglishWord": "unemployment rate",
+    "VietnameseMeaning": "t\u1EC9 l\u1EC7 th\u1EA5t nghi\u1EC7p",
+    "Example": "The country has a high unemployment rate.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-15T00:44:17.8574007+07:00",
+    "UpdatedAt": "2026-07-15T00:44:17.8574027+07:00"
+  },
+  {
+    "Id": 51,
+    "EnglishWord": "dock",
+    "VietnameseMeaning": "neo \u0111\u1EADu, c\u1EADp b\u1EBFn",
+    "Example": "The ship docked at the port.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-15T00:46:01.6770345+07:00",
+    "UpdatedAt": "2026-07-15T00:46:01.6770366+07:00"
+  },
+  {
+    "Id": 52,
+    "EnglishWord": "float on the water",
+    "VietnameseMeaning": "n\u1ED5i tr\u00EAn m\u1EB7t n\u01B0\u1EDBc",
+    "Example": "Wood can float on the water.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-15T00:47:29.0102403+07:00",
+    "UpdatedAt": "2026-07-15T00:47:29.0102422+07:00"
+  },
+  {
+    "Id": 53,
+    "EnglishWord": "city port",
+    "VietnameseMeaning": "c\u1EA3ng th\u00E0nh ph\u1ED1",
+    "Example": "The city port is near the river.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-15T00:48:41.4225223+07:00",
+    "UpdatedAt": "2026-07-15T00:48:41.4226081+07:00"
+  },
+  {
+    "Id": 54,
+    "EnglishWord": "water\u0027s edge",
+    "VietnameseMeaning": "m\u00E9p n\u01B0\u1EDBc, b\u1EDD n\u01B0\u1EDBc, b\u1EDD s\u00F4ng/h\u1ED3",
+    "Example": "We walked along the water\u0027s edge.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-15T00:51:22.06871+07:00",
+    "UpdatedAt": "2026-07-15T00:51:22.0687123+07:00"
+  },
+  {
+    "Id": 55,
+    "EnglishWord": "tie",
+    "VietnameseMeaning": "bu\u1ED9c / th\u1EAFt",
+    "Example": "She tied her hair back.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-15T00:55:07.5984509+07:00",
+    "UpdatedAt": "2026-07-15T00:55:07.5984532+07:00"
+  },
+  {
+    "Id": 56,
+    "EnglishWord": "row a boat",
+    "VietnameseMeaning": "ch\u00E8o thuy\u1EC1n",
+    "Example": "We rowed a boat on the lake.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-15T00:55:49.2510522+07:00",
+    "UpdatedAt": "2026-07-15T00:55:49.2510541+07:00"
+  },
+  {
+    "Id": 57,
+    "EnglishWord": "curb",
+    "VietnameseMeaning": "l\u1EC1 \u0111\u01B0\u1EDDng, m\u00E9p b\u1EDD r\u00E0o",
+    "Example": "He parked his car near the curb.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-15T01:00:30.8699252+07:00",
+    "UpdatedAt": "2026-07-15T01:00:30.8699277+07:00"
+  },
+  {
+    "Id": 58,
+    "EnglishWord": "lean",
+    "VietnameseMeaning": "t\u1EF1a / d\u1EF1a v\u00E0o",
+    "Example": "He leaned against the wall.",
+    "WordType": "\u0110\u1ED9ng t\u1EEB",
+    "CreatedAt": "2026-07-15T01:01:38.6610285+07:00",
+    "UpdatedAt": "2026-07-15T01:01:38.6610309+07:00"
+  },
+  {
+    "Id": 59,
+    "EnglishWord": "destination",
+    "VietnameseMeaning": "\u0111i\u1EC3m \u0111\u1EBFn, n\u01A1i \u0111\u1EBFn",
+    "Example": "Paris is a popular holiday destination.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-15T01:03:20.4591235+07:00",
+    "UpdatedAt": "2026-07-15T01:03:20.4591269+07:00"
+  },
+  {
+    "Id": 60,
+    "EnglishWord": "boarding pass",
+    "VietnameseMeaning": "th\u1EBB l\u00EAn m\u00E1y bay",
+    "Example": "Please show your boarding pass !",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-15T01:06:29.0444643+07:00",
+    "UpdatedAt": "2026-07-15T01:06:29.0444969+07:00"
+  },
+  {
+    "Id": 61,
+    "EnglishWord": "bagge claim",
+    "VietnameseMeaning": "n\u01A1i nh\u1EADn h\u00E0nh l\u00FD ",
+    "Example": "We are waiting at the baggage claim.",
+    "WordType": "Danh t\u1EEB",
+    "CreatedAt": "2026-07-15T01:07:25.6983794+07:00",
+    "UpdatedAt": "2026-07-15T01:07:25.6983803+07:00"
   }
 ]
